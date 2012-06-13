@@ -4,13 +4,13 @@
 #define MyAppName "Pyramid"
 #define MyAppVersion "1.3.2"
 #define MyAppPublisher "Pylons Project"
-#define MyAppURL "http://www.pylonsproject.org/"
+#define MyAppURL "www.pylonsproject.org"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{399BF6D8-8B9F-40BF-8FFB-6FDDFA8B83BF}
+AppId={{881FD75D-4559-4ECA-82A4-CF38BFFF2C9B}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -28,10 +28,7 @@ SolidCompression=yes
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "C:\env\*"; DestDir: "{app}\env"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Python26\*"; DestDir: "{app}\Python26"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\VAMP\Documents\GitHub\kiya\env\*"; DestDir: "{app}\env"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\VAMP\Documents\GitHub\kiya\Python26\*"; DestDir: "{app}\Python26"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
-
-[Icons]
-Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
 
