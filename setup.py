@@ -15,7 +15,7 @@ setup(
                        'gobject']
         },
         'sdist': {
-          'formats': 'zip'
+            'formats': 'zip'
         }
     }
 )
