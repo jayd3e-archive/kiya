@@ -7,9 +7,9 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{AF11441C-99A9-4830-99F5-4E5726B33246}
 AppName=Kiya
-AppVersion=1.5
-;AppVerName=Kiya 1.5
-AppPublisher=PylonsProject
+AppVersion=0.1
+;AppVerName=Kiya 0.1
+AppPublisher=Pylons Project
 AppPublisherURL=pylonsproject.org
 AppSupportURL=pylonsproject.org
 AppUpdatesURL=pylonsproject.org
