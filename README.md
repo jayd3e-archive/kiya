@@ -1,4 +1,4 @@
 kiya
 ====
 
-A windows installer for Pyramid.
+A site management app for pyramid.
